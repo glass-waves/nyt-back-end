@@ -23,6 +23,7 @@ async function run() {
                     headline VARCHAR(512) NOT NULL,
                     byline VARCHAR(512) NOT NULL,
                     image VARCHAR(512) NOT NULL,
+                    snippet VARCHAR(512) NOT NULL,
                     paragraph TEXT NOT NULL,
                     url VARCHAR(512) NOT NULL,
                     owner_id INTEGER NOT NULL REFERENCES users(id)
